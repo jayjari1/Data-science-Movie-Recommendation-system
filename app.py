@@ -8,7 +8,7 @@ cosine_similarities_df = load('cosine_similarities_df.joblib')
 vectorizer = load('vectorizer.joblib')
 
 # Load your dataset
-df = pd.read_csv('tmdb\tmdb_5000_credits.csv')
+df = pd.read_csv('tmdb_5000_credits.csv')
 
 # TMDB API key
 tmdb_api_key = "8265bd1679663a7ea12ac168da84d2e8"
